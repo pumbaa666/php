@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- https://www.touraineverte.fr/google-maps-api-version-3/exemple-tutoriel-polygones/creer-dessiner-tracer-un-cercle-avec-api-google-maps-version-3.html -->
+<html lang="fr">
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+		<meta charset="UTF-8" />
+		<title>Google Maps Radius</title>
+		<style>
+			html, body {
+				height: 100%;
+				margin: 0;
+				padding: 0
+			}
+			#divMap {
+				width: 50%;
+				height: 50%
+			}
+			#divOptions {
+				width: 50%;
+				height: 50%
+			}
+		</style>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrlGvYkzxrJcPtzequHrIbChOjYKMNRqI"></script>
+		<script src="myGoogleMaps.js"></script>
+	</head>
+	<body>
+		<div id="divMap"></div>
+		
+		<div id="divOptions">
+			<b>Emplacement</b><br/>
+			Latitude : <input type = "text" id = "mapLatitude" placeholder = "latitude"></input>
+			Longitude : <input type = "text" id = "mapLongitude" placeholder = "longitude"></input><br/>
+			Zoom : <input type = "text" id = "mapZoom" placeholder = "zoom"></input><br/><br/>
+			<b>Cercle</b><br/>
+			Latitude : <input type = "text" id = "circleLatitude" placeholder = "latitude"></input>
+			Longitude : <input type = "text" id = "circleLongitude" placeholder = "longitude"></input><br/>
+			Rayon : <input type = "text" id = "circleRadius" placeholder = "rayon"></input><br/>
+			Couleur du remplissage : <input type = "text" id = "circleFillColor" placeholder = "couleur du remplissage"></input><br/>
+			Epaisseur du trait : <input type = "text" id = "circleStrokeWeight" placeholder = "épaisseur du trait"></input>
+			Couleur du trait : <input type = "text" id = "circleStrokeColor" placeholder = "couleur du trait"></input><br/><br/>
+			<button onclick="refresh()">Click me</button> 
+			
+		</div>
+		<noscript>
+			<p>Attention : </p>
+			<p>Afin de pouvoir utiliser Google Maps, JavaScript doit être activé.</p>
+			<p>Or, il semble que JavaScript est désactivé ou qu'il ne soit pas supporté par votre navigateur.</p>
+			<p>Pour afficher Google Maps, activez JavaScript en modifiant les options de votre navigateur, puis essayez à nouveau.</p>
+		</noscript>
+	</body>
+</html>

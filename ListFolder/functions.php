@@ -1,0 +1,1 @@
+<?phpfunction printIndent($nbIndent){	for($i = 0; $i < $nbIndent; $i++)		echo "|___ ";}?>

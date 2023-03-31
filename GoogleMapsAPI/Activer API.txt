@@ -1,0 +1,8 @@
+https://console.developers.google.com/apis/dashboard?project=medical-calendar-1125&duration=PT1H
+	Activer les api et les services
+	Google Maps JavaScript API 
+	Activer
+	Créer des identifiants
+	De quels identifiants ai-je besoin ?
+	Votre clé d'API : AIzaSyDrlGvYkzxrJcPtzequHrIbChOjYKMNRqI
+	Restreindre la clé --> Aucune (mais on peut restreindre par ip, site web, etc

@@ -1,0 +1,15 @@
+CALENDRIER PERSONNALISABLE
+
+Par The-Player777, septembre 2007
+
+
+Salut!
+
+Pour l'installation, rien de plus simple:
+- il suffit de déziper le fichier dans le répertoire de ton serveur PHP local ou en ligne
+- ensuite tu ouvre le fichier index.php (http://localhost/calendrier/index.php si tu es en local)
+
+Tu peux ensuite personnaliser les couleurs, taille, polices et autres en ouvrant styles.css
+Ou encore personnaliser le nom des mois et des jours dans config.php
+
+Voilà si tu as un problème: jonas_n@bluewin.ch

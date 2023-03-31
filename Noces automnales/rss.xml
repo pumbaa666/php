@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0">
+    <channel>
+   
+        <title>Noces automnales</title>
+        <link>http://noceautomnales.olympe-network.com/</link>
+        <description>New</description>
+       
+        <item>
+            <title>Google</title>
+            <link>http://www.google.fr</link>
+            <guid isPermaLink="true">http://www.google.fr</guid>
+            <description>Le site google est un moteur de recherche.</description>
+            <pubDate>Wed, 29 Aug 2005 9:45:00 GMT</pubDate>
+        </item>
+       
+        <item>
+            <title>Google2</title>
+            <!--link>http://www.google.fr</link-->
+            <guid isPermaLink="true">http://www.google.ch</guid>
+            <description>Le site google est un moteur de recherche2.</description>
+            <pubDate>Wed, 29 Aug 2005 9:46:00 GMT</pubDate>
+        </item>
+             
+    </channel>
+</rss>

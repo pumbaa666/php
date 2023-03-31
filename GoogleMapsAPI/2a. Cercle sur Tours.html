@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+		<meta charset="UTF-8" />
+		<title>2a. Cercle sur Tours</title>
+		<style
+			html, body{
+				margin:0px;
+				padding:0px
+				height:100%;
+			}
+			#EmplacementDeMaCarte{
+				height:100%
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="EmplacementDeMaCarte"></div>
+		<noscript>
+			<p>Attention : </p>
+			<p>Afin de pouvoir utiliser Google Maps, JavaScript doit être activé.</p>
+			<p>Or, il semble que JavaScript est désactivé ou qu'il ne soit pas supporté par votre navigateur.</p>
+			<p>Pour afficher Google Maps, activez JavaScript en modifiant les options de votre navigateur, puis essayez à nouveau.</p>
+		</noscript>
+		<script>
+			function initialisation(){
+				var optionsCarte = {
+					zoom: 15,
+					center: {lat: 47.389982, lng: 0.688877},
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				}
+				var maCarte = new google.maps.Map(document.getElementById("EmplacementDeMaCarte"), optionsCarte);
+				var optionsCercle = {
+					map: maCarte,
+					center: maCarte.getCenter(),
+					radius: 500
+				}
+				var monCercle = new google.maps.Circle(optionsCercle);
+			}
+		</script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrlGvYkzxrJcPtzequHrIbChOjYKMNRqI&callback=initialisation"></script>
+	</body>
+</html>

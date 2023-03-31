@@ -1,0 +1,101 @@
+/* DOCUMENT */
+body 
+{ 
+	font-family:Times;
+}
+	
+/* TABLEAU */
+td
+{
+	text-align:center;
+	vertical-align:top;
+	width:35;
+	height:35;
+}
+  
+/* NOM DU MOIS */
+td.nom_mois 
+{
+	vertical-align:middle;
+	font-family:Verdana;
+	font-size:16pt;
+	font-style:normal;
+	font-weight:normal;
+}
+  
+ /* FLECHES */
+td.fleches 
+{
+	font-size:14pt;
+	font-style:normal;
+	font-weight:normal;
+}
+  
+/* NOMS DES JOURS*/
+tr.noms_jours 
+{
+	vertical-align:middle;
+	font-family:Verdana;
+	font-size:14pt;
+	width:15;
+	height:15;
+	font-size:8pt;
+}
+  
+/*DATES*/
+td.jours 
+{
+	height:35;
+	border-color:#33CCCC;
+	border-width:1px;
+	border-style:solid;
+	font-size:8pt;
+	background-color:#CCFFFF;
+}
+  
+/* AUJOURD'HUI */
+td.aujourdhui
+ {
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+	font-size:8pt;
+	background-color:#ffc020;
+}
+
+/* booké */
+td.booked
+ {
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+	font-size:8pt;
+	background-color:#20B020;
+}
+
+/* CASES DES MOIS PRECEDENTS ET SUIVANTS*/
+td.cases_vides 
+{
+	width:15;
+	height:15;
+	border-color:#F5F5F5;
+	border-width:1px;
+	border-style:solid;
+	font-size:8pt;
+	color:#C0C0C0;
+}
+
+/*a:link 
+{
+	text-decoration:none;
+}
+
+a:visited
+{
+	text-decoration:none;
+}
+
+a:active 
+{
+	text-decoration:none;
+}*/

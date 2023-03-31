@@ -1,0 +1,97 @@
+/* TABLEAU */
+td
+{
+	text-align:center;
+	vertical-align:top;
+	font-family:Verdana, sans_serif;
+	font-size:8pt;
+	font-style:normal;
+	font-weight:normal;
+	width:35;
+	height:35;
+}
+  
+/* NOM DU MOIS */
+td.month 
+{
+	vertical-align:middle;
+	font-size:16pt;
+}
+  
+/* NOMS DES JOURS*/
+tr.noms_jours 
+{
+	vertical-align:middle;
+	font-size:14pt;
+}
+  
+/*DATES*/
+td.jours 
+{
+	border-color:#33CCCC;
+	border-width:1px;
+	border-style:solid;
+	background-color:#CCFFFF;
+}
+  
+td.jours:hover
+{
+	border-color:#33CCCC;
+	border-width:1px;
+	border-style:solid;
+	background-color:#99FFFF;
+}
+  
+/* AUJOURD'HUI */
+td.aujourdhui
+ {
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+	background-color:#88FFFF;
+}
+
+/* booké */
+td.booked
+ {
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+	background-color:#A0FF00;
+}
+
+/* CASES DES MOIS PRECEDENTS ET SUIVANTS*/
+td.cases_vides 
+{
+	border-color:#C5C5C5;
+	border-width:1px;
+	border-style:solid;
+	color:#C0C0C0;
+}
+
+a.case
+{
+	display:block;
+	height:90%;
+	width: 100%;
+}
+
+a.case:link 
+{
+	text-decoration:none;
+}
+
+a.case:visited
+{
+	text-decoration:none;
+}
+
+a.case:active 
+{
+	text-decoration:none;
+}
+
+a.case:hover 
+{
+	text-decoration:underline;
+}

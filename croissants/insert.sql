@@ -1,0 +1,2 @@
+INSERT INTO `USER` ( `pk_user_id` , `firstname` , `lastname` , `email` , `password` ) VALUES ('ADM', 'Loïc', 'Correvon', 'loic.correvon@elca.ch', '40f629b6cd4d885b5527f7db98dfae8d ');
+INSERT INTO SETTINGS( pk_fk_user_id, nb_day_before_mail, send_mail_before_date, nb_day_to_see, email_visible, receive_notification ) VALUES ('ADM', 1, 1, 10, 0, 1);

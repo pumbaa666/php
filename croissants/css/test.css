@@ -1,0 +1,43 @@
+html, body 
+{
+   margin:0;
+   padding:0;
+   height:100%; /* 100 % en hauteur */
+}
+
+//html>body #wrap {height:100%;} /* 100 % en hauteur */
+
+/*#wrap 
+{
+   width:40em;
+   margin:0 auto;
+}*/
+
+#header 
+{
+   width:40em;
+   height:5em;
+}
+
+html>body #header 
+{
+   position:fixed;
+   z-index:10; /* empêche certains problèmes avec les élements de formulaire */
+}
+
+//html>body #content-wrap {height:100%;} /* 100 % height */
+
+html>body #content {padding:6em 1em;} /* 6em = hauteur de #header et #footer + 1em, 1em = donne au contenu un peu d'espace par rapport aux bords */
+
+#footer 
+{
+   width:40em;
+   height:5em;
+}
+
+html>body #footer 
+{
+   position:fixed;
+   bottom:0;
+   z-index:10; /* empêche certains problèmes avec les élements de formulaire */
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rss version="2.0">
+<channel>
+	<title>Croissants-ELCA</title>     
+	<link>http://127.0.0.1/croissants/mainFrame.php?page=liste</link>
+	<language>fr</language>
+	<webMaster>loic.correvon@elca.ch</webMaster>
+	<pubDate>21.08.2009</pubDate>
+	<description>Tenez-vous informé des évolutions du planning des croissants</description>
+
+
+	<item>
+		<title>SGB va apporter les croissants</title>
+		<link>http://127.0.0.1/croissants/mainFrame.php?page=history&amp;date=25.12.2009</link>
+		<description>SGB s'est inscrit pour apporter les croissants le 25.12.2009</description>
+		<pubDate>2009-12-24 08:21:16</title>
+	</item>
+
+
+</channel>
+</rss>
